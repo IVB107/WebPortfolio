@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(0, 160, 100, 1), rgba(0, 120, 140, 1));
+  background-size: contain;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Abel', sans-serif;
+  justify-content: space-around !important;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Megrim'; */
+}
+nav {
+  border: 2px solid white;
+  height: 100%;
+  width: 10%;
+}
+main {
+  border: 2px solid white;
+  height: 100%;
+  width: 65%;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titles {
+  width: 80%;
+  margin: 0px;
+}
+h1 {
+  font-size: 40px;
+  margin: 10px 20px;
+  padding: 0px;
+  align-self: flex-end;
+}
+h2 {
+  font-size: 32px;
+  margin: 12px 20px;
+  padding: 0px;
+  align-self: flex-end;
+}
+hr {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
