@@ -13,9 +13,11 @@ body {
   /* font-family: 'Megrim'; */
 }
 nav {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   height: 100%;
   width: 10%;
+  justify-content: flex-start !important;
+  margin-top: 10%;
 }
 .nav a {
   color: white;
@@ -49,10 +51,16 @@ nav {
   stroke: rgb(255, 255, 255);
   transition: .1s ease;
 }
+.hidden {
+  display: none;
+}
+.visible {
+  display: flex;
+}
 main {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   height: 100%;
-  width: 65%;
+  width: 75%;
 }
 .flex-row {
   display: flex;
