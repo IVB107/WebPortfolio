@@ -1,10 +1,6 @@
 document.addEventListener("DOMContentLoaded", (event) => {
   feather.replace();
 
-  // const home = {
-  //
-  // };
-
   const animateNav = () => {
     if ($(".nav-icon").hasClass("hidden")){
       $("#arrow").css({"transform": "rotate(-180deg)"});
@@ -15,36 +11,32 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
   };
 
-  const subtitles = ["a web developer.", "a student.", "a photographer.", "an audiophile.", "my cat's subordinate human."];
-  var sub;
-
-  const fadeSubtitle = () => {
-    $("#sub").css({"opacity": "0"});
-    setTimeout(()=>{
-      $("#sub").html(subtitles[sub]);
-      $("#sub").css({"opacity": "1"});
-      sub <= 3 ? sub++ : sub = 0;
-      startFade();
-    }, 1500);
+  const home = {
+    subtitles: ["a web developer.", "a student.", "a photographer.", "an audiophile.", "my cat's subordinate human."],
+    sub: 0,
+    rotateSub: false,
+    fadeSubtitle: ()=>{
+      $("#sub").css({"opacity": "0"});
+      setTimeout(()=>{
+        $("#sub").html(home.subtitles[home.sub]);
+        $("#sub").css({"opacity": "1"});
+        home.sub <= 3 ? home.sub++ : home.sub = 0;
+        home.startFade();
+      }, 1500);
+    },
+    startFade: ()=>{
+      setTimeout(()=>{
+        home.fadeSubtitle();
+      }, 3000);
+    },
   };
 
   $("#arrow").on("click", () => {
     animateNav();
   });
 
-  $(".subtitles").mouseover(()=>{
-    if (sub){
-      return void 0;
-    } else {
-      sub = 1;
-      fadeSubtitle();
-    }
+  $(window).ready(()=>{
+    home.startFade();  
   });
-
-  startFade = ()=>{
-    setTimeout(()=>{
-      fadeSubtitle();
-    }, 3000);
-  };
 
 });
