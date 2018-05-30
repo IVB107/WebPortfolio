@@ -208,79 +208,116 @@ hr {
 }
 
 /* --- Skills --- */
-.description {
-  margin: 10px 0px;
-}
-.description p {
-  font-size: 16px;
+.skills-description {
+  margin: 10px;
 }
 .content {
   justify-content: space-around;
   align-items: center;
+  /* flex-wrap: wrap; */
   margin: 20px 0px;
   width: 100%;
   /* height: 100%; */
 }
 .list-container {
-  border: 2px solid white;
+  /* border: 2px solid rgba(255, 255, 255, .6); */
   border-radius: 15px;
   justify-content: center;
   align-items: center;
-  /* flex-grow: 1; */
-  margin: 0px 15px;
-  padding: 15px 5px;
-  /* max-width: 80%; */
-  width: 80%;
+  /* flex-wrap: wrap; */
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  /* min-width: 180px; */
 }
 .list-title {
   margin: 0px;
   padding: 0px;
-  width: 80%;
+  width: 20%;
   align-items: center;
   justify-content: center;
 }
 .list-title p {
-  align-self: flex-start;
-  margin: 8px 12px;
-  padding: 0px;
-  font-size: 20px;
+  /* align-self: flex-start; */
+  /* margin: 8px 20px; */
+  /* padding: 0px 10px; */
+  font-size: 24px;
 }
 .list-title hr{
   width: 100%;
 }
 .list {
+  border-left: 1px solid rgba(255, 255, 255, .5);
   /* border: 2px solid white; */
   /* justify-content: center; */
+  justify-content: flex-start;
   align-items: center;
+  align-self: center;
   height: 100%;
-  width: 80%;
+  width: 60%;
+  margin: 10px;
+  padding-left: 10%;
+  flex-wrap: wrap;
   /* list-style-type: none; */
 }
 .list li {
-  margin: 4px 0px;
-  width: 100%;
+  margin: 4px;
+  width: 130px;
+  /* flex-grow: 1; */
+  min-width: 120px;
 }
 
-/* --- Skills --- */
+/* --- Work --- */
 .work-container {
-  justofy-content: center;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 20px 0px;
+  margin: 10px 0px;
+}
+.work-description {
+  margin: 10px;
 }
 .work-row {
-  justofy-content: center;
+  justify-content: center;
   align-items: center;
   width: 100%;
+  flex-wrap: wrap;
+}
+.sample-container {
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  margin: 10px 20px;
 }
 .work-sample {
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, .6);
   height: 160px;
   width: 100%;
-  margin: 20px;
+  /* margin: 20px; */
   transition: .2s ease;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 20px; */
 }
 .work-sample:hover {
+  border: 2px solid rgba(255, 255, 255, 1);
   background-color: rgba(60, 60, 60, .3);
   transition: .2s ease;
 }
+.work-sample:hover .project-info{
+  visibility: visible;
+  opacity: 1;
+}
+.project-info {
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  margin: 10px 20px;
+  transition: .2s ease;
+}
+.project-name {
+  font-size: 18px;
+  margin: 6px 0px;
+}
+
+/* --- Contact --- */
