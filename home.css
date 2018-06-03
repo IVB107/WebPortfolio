@@ -65,7 +65,8 @@ nav {
 }
 .hidden {
   stroke: rgba(40, 40, 40, 0);
-  display: hidden;
+  display: flex;
+  visibility: hidden;
   transition: .4s ease-in-out;
   pointer-events: none;
 }
@@ -76,7 +77,7 @@ nav {
   pointer-events: auto;
 }
 
-/* --- Main ---  */
+/* --- Main/Home ---  */
 main {
   height: 100%;
   width: 80%;
@@ -155,7 +156,12 @@ hr {
   width: 80%;
 }
 .title-margin {
+  width: 100%;
   margin: 5% 0%;
+}
+#about .title-margin {
+  width: 100%;
+  margin: 5% 0% 0%;
 }
 .section-title {
   /* margin: 5%; */
@@ -331,7 +337,7 @@ hr {
   /* padding: 20px; */
 }
 .work-sample:hover {
-  box-shadow: 5px 5px 8px rgba(40, 40, 40, .8);
+  box-shadow: 6px 6px 8px rgba(40, 40, 40, .8);
   background-color: rgba(0, 0, 0, .3);
   transition: .2s ease;
 }
@@ -369,15 +375,17 @@ hr {
 
 /* --- Contact --- */
 
-.container {
+#contact .container {
   justify-content: flex-start;
-  /* margin: 5% 0%; */
+  align-items: center;
+  height: 100%;
+  width: 80%;
 }
 .link-container {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  margin: 15% 0%;
+  margin: 5% 0%;
   width: 100%;
   text-decoration: none;
 }
@@ -417,18 +425,3 @@ hr {
   font-size: 12px;
   text-align: center;
 }
-/* #github:hover {
-  stroke: rgba(80, 0, 180, 1);
-}
-#linkedin:hover {
-  stroke: rgba(0, 120, 255, 1);
-}
-#codepen:hover {
-  stroke: rgba(40, 40, 40, 1);
-}
-#mail:hover {
-  stroke: rgba(240, 0, 100, 1);
-}
-#slack:hover {
-
-} */
