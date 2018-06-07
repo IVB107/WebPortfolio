@@ -336,32 +336,32 @@ hr {
   margin: 10px 20px;
 }
 #sample1 {
-  background: url("file:///Users/Ian/Desktop/DevProjects/GitRepos/WebPortfolio/ProjectScreenshots/WikiViewer.png");
+  background: url("./ProjectScreenshots/WikiViewer.png");
   background-size: cover;
   background-position: center center;
 }
 #sample2 {
-  background: url("file:///Users/Ian/Desktop/DevProjects/GitRepos/WebPortfolio/ProjectScreenshots/SimonGame.png");
+  background: url("./ProjectScreenshots/SimonGame.png");
   background-size: cover;
   background-position: center center;
 }
 #sample3 {
-  background: url("file:///Users/Ian/Desktop/DevProjects/GitRepos/WebPortfolio/ProjectScreenshots/MacTacToe.png");
+  background: url("./ProjectScreenshots/MacTacToe.png");
   background-size: cover;
   background-position: center center;
 }
 #sample4 {
-  background: url("file:///Users/Ian/Desktop/DevProjects/GitRepos/WebPortfolio/ProjectScreenshots/JavaScriptCalculator.png");
+  background: url("./ProjectScreenshots/JavaScriptCalculator.png");
   background-size: cover;
   background-position: center center;
 }
 #sample5 {
-  background: url("file:///Users/Ian/Desktop/DevProjects/GitRepos/WebPortfolio/ProjectScreenshots/PomodoroClock.png");
+  background: url("./ProjectScreenshots/PomodoroClock.png");
   background-size: cover;
   background-position: center center;
 }
 #sample6 {
-  background: url("file:///Users/Ian/Desktop/DevProjects/GitRepos/WebPortfolio/ProjectScreenshots/WeatherApp.png");
+  background: url("./ProjectScreenshots/WeatherApp.png");
   background-size: cover;
   background-position: center center;
 }
