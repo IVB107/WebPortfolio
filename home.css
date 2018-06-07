@@ -445,7 +445,7 @@ hr {
   width: 80px;
   stroke: rgba(255, 255, 255, .8);
   stroke-width: .5;
-  transition: .2s ease;
+  transition: .1s ease;
   fill: rgba(255, 255, 255, 0);
 }
 .link:hover {
@@ -453,7 +453,7 @@ hr {
   height: 90px;
   width: 90px;
   stroke-width: 1;
-  transition: .3s ease;
+  transition: .1s ease;
   stroke: rgba(255, 255, 255, 1);
 }
 .copyright {
