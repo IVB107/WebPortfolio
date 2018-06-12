@@ -255,11 +255,19 @@ hr {
   align-items: center;
   margin: 0px 10px;
 }
-.about-text {
-  /* border: 2px solid white; */
+.text {
   width: 100%;
   font-size: 20px;
-  /* margin: 10px 0px; */
+}
+.text a {
+  color: rgb(20, 20, 20);
+  font-weight: 700;
+  text-decoration: none;
+  transition: .1s ease;
+}
+.text a:hover {
+  text-decoration: underline;
+  transition: .1s ease;
 }
 
 /* --- Skills --- */
@@ -321,7 +329,7 @@ hr {
   margin: 0px;
 }
 .description p {
-  text-indent: 5%;
+  /* text-indent: 5%; */
 }
 .work-row {
   justify-content: center;

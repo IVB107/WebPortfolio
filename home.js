@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   };
 
   const home = {
-    subtitles: ["web development", "learning and expanding my education", "photography", "music & my vinyl collection", "travel and discovering new places"],
+    subtitles: ["web development", "learning and expanding my education", "photography", "music & my vinyl collection", "travel and discovering new places", "adding avocado to anything edible"],
     sub: 0,
     rotateSub: false,
     fadeSubtitle: ()=>{
