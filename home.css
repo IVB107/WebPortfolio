@@ -32,7 +32,7 @@ nav section {
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  height: 80%;
+  height: 90%;
 }
 .nav-container {
   display: flex;
@@ -51,6 +51,9 @@ nav section {
   margin: 0px;
   padding: 0px;
   position: fixed;
+}
+.nav-list a {
+  pointer-events: none;
 }
 .nav-icon {
   height: 36px;
