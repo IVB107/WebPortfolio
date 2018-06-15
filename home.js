@@ -14,10 +14,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
   const home = {
     subtitles: ["web development", "learning and expanding my education", "photography", "music & my vinyl collection", "travel and discovering new places", "adding avocado to anything edible"],
     sub: 0,
-    rotateSub: false,
     fadeSubtitle: ()=>{
       $("#sub").css({"opacity": "0"});
-      // !!! - refactor this function: include forEach method, make callback only after iterating through array
       setTimeout(()=>{
         $("#sub").html(home.subtitles[home.sub]);
         $("#sub").css({"opacity": "1"});
@@ -28,7 +26,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     startFade: ()=>{
       setTimeout(()=>{
         home.fadeSubtitle();
-      }, 3000);
+      }, 2500);
     },
   };
 
