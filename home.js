@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // Hide 'Nav' menu for mobile users
     if (windowWidth > 700){
       $("nav").css("visibility", "visibile");
+      $("#subtitles").removeClass("flex-col").addClass("flex-row");
     }
   };
 
@@ -21,8 +22,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
   };
 
   const home = {
-    subtitles: ["web development", "learning and expanding my education", "photography", "music & my vinyl collection", "travel and discovering new places", "adding avocado to anything edible"],
-    sub: 0,
+    subtitles: ["web development & programming", "expanding my education", "photography & design", "music & my vinyl collection", "travel and discovering new places", "adding avocado to anything edible", "having breakfast for dinner"],
+    sub: 1,
     fadeSubtitle: ()=>{
       $("#sub").css({"opacity": "0"});
       setTimeout(()=>{
