@@ -1,6 +1,15 @@
 document.addEventListener("DOMContentLoaded", (event) => {
   feather.replace();
 
+  const getViewport = () => {
+    let windowWidth = window.innerWidth;
+    let windowHeight = window.innerHeight;
+    // Hide 'Nav' menu for mobile users
+    if (windowWidth > 700){
+      $("nav").css("visibility", "visibile");
+    }
+  };
+
   const animateNav = () => {
     if ($(".nav-icon").hasClass("hidden")){
       $("#arrow").css({"transform": "rotate(-180deg)"});
@@ -35,7 +44,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
   });
 
   $(window).ready(()=>{
+    getViewport();
     home.startFade();
+
   });
 
 });
