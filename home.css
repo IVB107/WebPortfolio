@@ -132,20 +132,25 @@
   .subtitles {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     width: 80%;
     margin: 12px 0px;
     padding: 0px;
   }
+  /* h2 {
+    font-size: 30px;
+    margin: 0px 16px 8px;
+    padding: 0px;
+  } */
   .subtitles p {
     opacity: 1;
     font-size: 18px;
-    margin: 4px 0px;
+    margin: 0px 16px;
     padding: 0px;
     transition: .5s ease;
   }
   #sub {
-    margin: 0px 8px;
+    margin: 0px 16px;
   }
 
   /* --- About ---  */
