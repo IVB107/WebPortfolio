@@ -11,7 +11,8 @@
     background: linear-gradient(105deg, rgba(0, 160, 120, 1), rgba(0, 120, 160, 1));
   }
 
-@media screen and (max-width: 330px){
+/* --- iphone SE --- */
+@media screen and (max-width: 380px){
   /* --- Nav Menu --- */
   nav {
     height: 100vh;
@@ -430,6 +431,12 @@
     font-size: 12px;
     text-align: center;
   }
+
+}
+
+
+/* --- iphone 6S --- */
+@media screen and (max-width: 380px){
 
 }
 
