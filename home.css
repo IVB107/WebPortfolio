@@ -1,14 +1,16 @@
-  html, body {
-    /* height: 100%; */
+  html {
+    min-height: 100%;
+  }
+  body {
+    max-height: 100%;
     width: 100%;
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
-  }
-  body {
     font-family: 'Abel', sans-serif;
     justify-content: flex-start !important;
     background: linear-gradient(105deg, rgba(0, 160, 120, 1), rgba(0, 120, 160, 1));
+    /* background-size: 100% 100%; */
   }
 
 /* --- iphone SE --- */
