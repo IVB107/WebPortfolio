@@ -111,6 +111,12 @@
     width: 100vw;
     margin: 0px;
   }
+  .title-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50%;
+  }
   .name {
     display: flex;
     justify-content: flex-start;
@@ -139,12 +145,10 @@
     margin: 12px 0px;
     padding: 0px;
   }
-  /* h2 {
-    font-size: 30px;
-    margin: 0px 16px 8px;
-    padding: 0px;
-  } */
-  .subtitles p {
+  .subtitles span {
+    display: flex;
+  }
+  .subtitles p, .subtitles i {
     opacity: 1;
     font-size: 18px;
     margin: 0px 16px;
@@ -152,7 +156,8 @@
     transition: .5s ease;
   }
   #sub {
-    margin: 0px 16px;
+    margin: 0px 0px;
+    font-style: normal;
   }
 
   /* --- About ---  */
@@ -446,10 +451,6 @@
 @media screen and (max-width: 380px){
 
 }
-
-
-
-
 
 
 
