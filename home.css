@@ -13,8 +13,6 @@
     /* background-size: 100% 100%; */
   }
 
-/* --- iphone SE --- */
-@media screen and (max-width: 380px){
   /* --- Nav Menu --- */
   nav {
     height: 100vh;
@@ -116,19 +114,21 @@
     justify-content: flex-start;
     align-items: center;
     height: 50%;
+    width: 100%;
   }
   .name {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
     width: 80%;
+    height: 50%;
     margin: 0px;
     padding: 0px;
   }
   .name h1 {
     font-size: 48px;
     width: 100%;
-    margin: 12px 16px;
+    margin: 8px 16px;
     padding: 0px;
   }
   hr {
@@ -142,18 +142,20 @@
     justify-content: flex-start;
     align-items: flex-start;
     width: 80%;
-    margin: 12px 0px;
+    margin: 0px;
     padding: 0px;
   }
   .subtitles span {
     display: flex;
+    margin: 16px 16px;
   }
   .subtitles p, .subtitles i {
     opacity: 1;
     font-size: 18px;
-    margin: 0px 16px;
+    margin: 0px;
     padding: 0px;
     transition: .5s ease;
+    white-space: pre-wrap;
   }
   #sub {
     margin: 0px 0px;
@@ -443,8 +445,6 @@
     font-size: 12px;
     text-align: center;
   }
-
-}
 
 
 /* --- iphone 6S --- */

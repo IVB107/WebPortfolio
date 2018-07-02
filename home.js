@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   };
 
   const home = {
-    subtitles: ["growing my education", "writing sentences that have no meaning and are way too long just so I can see if my code is working", "photography and design", "music and my vinyl collection", "traveling to discover new places", "a good avocado", "camping, hiking & rock climbing"],
+    subtitles: ["furthering my education.", "photography and design.", "music and my vinyl collection.", "traveling to discover new places.", "a good avocado.", "camping, hiking & rock climbing."],
     sub: 1,
     fadeSubtitle: ()=>{
       $("#sub").css({"opacity": "0"});
