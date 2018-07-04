@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   };
 
   const home = {
-    subtitles: ["furthering my education.", "photography and design.", "music and my vinyl collection.", "traveling to discover new places.", "a good avocado.", "camping, hiking & rock climbing."],
+    subtitles: ["furthering my education.", "photography and design.", "music and my vinyl collection.", "traveling to discover new places.", "avocado.", "camping, hiking & rock climbing."],
     sub: 1,
     fadeSubtitle: ()=>{
       $("#sub").css({"opacity": "0"});

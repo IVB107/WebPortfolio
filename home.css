@@ -167,7 +167,7 @@
   .section-container {
     justify-content: center;
     align-items: center;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
   }
   .container {
@@ -448,7 +448,7 @@
 
 
 /* --- iphone 6S --- */
-@media screen and (max-width: 380px){
+@media screen and (min-width: 370px){
 
 }
 
