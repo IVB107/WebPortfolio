@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", (event) => {
   feather.replace();
-
   const getViewport = () => {
     let windowWidth = window.innerWidth;
     let windowHeight = window.innerHeight;
@@ -10,7 +9,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
       $("#subtitles").removeClass("flex-col").addClass("flex-row");
     }
   };
-
   const animateNav = () => {
     if ($(".nav-icon").hasClass("hidden")){
       $("#arrow").css({"transform": "rotate(-180deg)"});
@@ -20,7 +18,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
       $(".nav-icon").not(document.getElementById("arrow")).removeClass("visible").addClass("hidden");
     }
   };
-
   const home = {
     subtitles: ["furthering my education.", "photography and design.", "music and my vinyl collection.", "traveling to discover new places.", "avocado.", "camping, hiking & rock climbing."],
     sub: 1,
@@ -39,15 +36,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
       }, 2500);
     },
   };
-
   $("#arrow").on("click", () => {
     animateNav();
   });
-
   $(window).ready(()=>{
     getViewport();
     home.startFade();
-
   });
-
 });
