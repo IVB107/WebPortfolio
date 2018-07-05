@@ -455,10 +455,9 @@
 
 
 
-/* Original CSS Rules: */
-@media screen and (min-width: 70000px){
+/* Original CSS Rules (Desktop View): */
   /* --- Nav Menu --- */
-nav {
+/* nav {
   height: 100vh;
   width: 10%;
   display: flex;
@@ -528,10 +527,10 @@ nav section {
   display: flex;
   transition: .4s ease-in-out;
   pointer-events: auto;
-}
+} */
 
 /* --- Main/Home ---  */
-main {
+/* main {
   height: 100%;
   width: 80%;
   align-items: center;
@@ -589,11 +588,11 @@ hr {
 }
 #sub {
   margin: 12px 8px;
-}
+} */
 
 /* --- About ---  */
 
-.section-container {
+/* .section-container {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -610,7 +609,6 @@ hr {
   margin: 5% 0% 0%;
 }
 .section-title {
-  /* margin: 5%; */
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -677,10 +675,10 @@ hr {
 .text a:hover {
   text-decoration: underline;
   transition: .1s ease;
-}
+} */
 
 /* --- Skills --- */
-.content {
+/* .content {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
@@ -720,10 +718,10 @@ hr {
   width: 130px;
   min-width: 120px;
   list-style-type: square;
-}
+} */
 
 /* --- Work --- */
-.work-container {
+/* .work-container {
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -818,11 +816,11 @@ hr {
 .project-name {
   font-size: 18px;
   margin: 6px 0px;
-}
+} */
 
 /* --- Contact --- */
 
-#contact .container {
+/* #contact .container {
   justify-content: flex-start;
   align-items: center;
   height: 100%;
@@ -869,5 +867,4 @@ hr {
 .copyright p {
   font-size: 12px;
   text-align: center;
-}
-}
+} */
