@@ -314,32 +314,32 @@
     margin: 10px 20px;
   }
   #sample1 {
-    background: url("./ProjectScreenshots/WikiViewer.png");
+    background: url("./ProjectScreenshots/WikiViewer.jpg");
     background-size: cover;
     background-position: center center;
   }
   #sample2 {
-    background: url("./ProjectScreenshots/SimonGame.png");
+    background: url("./ProjectScreenshots/SimonGame.jpg");
     background-size: cover;
     background-position: center center;
   }
   #sample3 {
-    background: url("./ProjectScreenshots/MacTacToe.png");
+    background: url("./ProjectScreenshots/MacTacToe.jpg");
     background-size: cover;
     background-position: center center;
   }
   #sample4 {
-    background: url("./ProjectScreenshots/JavaScriptCalculator.png");
+    background: url("./ProjectScreenshots/JavaScriptCalculator.jpg");
     background-size: cover;
     background-position: center center;
   }
   #sample5 {
-    background: url("./ProjectScreenshots/PomodoroClock.png");
+    background: url("./ProjectScreenshots/PomodoroClock.jpg");
     background-size: cover;
     background-position: center center;
   }
   #sample6 {
-    background: url("./ProjectScreenshots/WeatherApp.png");
+    background: url("./ProjectScreenshots/WeatherApp.jpg");
     background-size: cover;
     background-position: center center;
   }
