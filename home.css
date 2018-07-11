@@ -12,7 +12,6 @@
     background: linear-gradient(105deg, rgba(0, 160, 120, 1), rgba(0, 120, 160, 1));
     /* background-size: 100% 100%; */
   }
-
   /* --- Nav Menu --- */
   nav {
     height: 100vh;
@@ -86,7 +85,6 @@
     transition: .4s ease-in-out;
     pointer-events: auto;
   }
-
   /* --- Main/Home ---  */
   main {
     height: 100%;
@@ -161,13 +159,11 @@
     margin: 0px 0px;
     font-style: normal;
   }
-
   /* --- About ---  */
-
   .section-container {
     justify-content: center;
     align-items: center;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
   }
   .container {
@@ -248,7 +244,6 @@
     text-decoration: underline;
     transition: .1s ease;
   }
-
   /* --- Skills --- */
   .content {
     justify-content: flex-start;
@@ -291,7 +286,6 @@
     min-width: 120px;
     list-style-type: square;
   }
-
   /* --- Work --- */
   .work-container {
     justify-content: center;
@@ -320,38 +314,38 @@
     margin: 10px 20px;
   }
   #sample1 {
-    background: url("./ProjectScreenshots/WikiViewer.png");
+    background: url("./ProjectScreenshots/WikiViewer.jpg");
     background-size: cover;
     background-position: center center;
   }
   #sample2 {
-    background: url("./ProjectScreenshots/SimonGame.png");
+    background: url("./ProjectScreenshots/SimonGame.jpg");
     background-size: cover;
     background-position: center center;
   }
   #sample3 {
-    background: url("./ProjectScreenshots/MacTacToe.png");
+    background: url("./ProjectScreenshots/MacTacToe.jpg");
     background-size: cover;
     background-position: center center;
   }
   #sample4 {
-    background: url("./ProjectScreenshots/JavaScriptCalculator.png");
+    background: url("./ProjectScreenshots/JavaScriptCalculator.jpg");
     background-size: cover;
     background-position: center center;
   }
   #sample5 {
-    background: url("./ProjectScreenshots/PomodoroClock.png");
+    background: url("./ProjectScreenshots/PomodoroClock.jpg");
     background-size: cover;
     background-position: center center;
   }
   #sample6 {
-    background: url("./ProjectScreenshots/WeatherApp.png");
+    background: url("./ProjectScreenshots/WeatherApp.jpg");
     background-size: cover;
     background-position: center center;
   }
   .work-sample {
-    height: 160px;
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
     transition: .2s ease;
     justify-content: center;
     align-items: center;
@@ -381,6 +375,8 @@
     transition: .2s ease;
   }
   .project-info {
+    height: 100%;
+    width: 100%;
     visibility: hidden;
     opacity: 0;
     text-align: center;
@@ -394,9 +390,7 @@
     font-size: 18px;
     margin: 6px 0px;
   }
-
   /* --- Contact --- */
-
   #contact .container {
     justify-content: flex-start;
     align-items: center;
@@ -445,17 +439,12 @@
     font-size: 12px;
     text-align: center;
   }
-
-
 /* --- iphone 6S --- */
-@media screen and (max-width: 380px){
-
+@media screen and (min-width: 370px){
 }
 
-
-
-
-/* Original CSS Rules (Desktop View): */
+/* Original CSS Rules: */
+/* @media screen and (min-width: 70000px){ */
   /* --- Nav Menu --- */
 /* nav {
   height: 100vh;
@@ -528,7 +517,6 @@ nav section {
   transition: .4s ease-in-out;
   pointer-events: auto;
 } */
-
 /* --- Main/Home ---  */
 /* main {
   height: 100%;
@@ -589,9 +577,7 @@ hr {
 #sub {
   margin: 12px 8px;
 } */
-
 /* --- About ---  */
-
 /* .section-container {
   justify-content: center;
   align-items: center;
@@ -676,7 +662,6 @@ hr {
   text-decoration: underline;
   transition: .1s ease;
 } */
-
 /* --- Skills --- */
 /* .content {
   justify-content: flex-start;
@@ -719,7 +704,6 @@ hr {
   min-width: 120px;
   list-style-type: square;
 } */
-
 /* --- Work --- */
 /* .work-container {
   justify-content: center;
@@ -817,9 +801,7 @@ hr {
   font-size: 18px;
   margin: 6px 0px;
 } */
-
 /* --- Contact --- */
-
 /* #contact .container {
   justify-content: flex-start;
   align-items: center;
@@ -867,4 +849,5 @@ hr {
 .copyright p {
   font-size: 12px;
   text-align: center;
+}
 } */
